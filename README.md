@@ -12,5 +12,5 @@ Sometimes we need to incorporate weather API to existing application. Yahoo weat
 3. Create a complete model (POJO class) to fetch/hold the API response.
 
 ### Screenshot:
-
+<img src="https://github.com/aliahmedbd/Yahoo-Weather-API-Android/blob/master/photo6289332899337578601.jpg" width="250" alt="Screenshot 1"/>
 
