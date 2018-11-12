@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_weather"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16sp"
+    android:layout_weight="1"
+    android:background="#F5F5F5"
+    android:padding="16sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=".."
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/second_black"
+            android:textSize="14sp" />
+
+        <TextClock
+            android:id="@+id/digital_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format12Hour="hh:mm a"
+            android:textColor="@color/second_black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4sp"
+            android:gravity="start"
+            android:text="..."
+            android:textColor="@color/first_black"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="9sp"
+            android:gravity="start"
+            android:text="@string/centigrade"
+            android:textColor="@color/first_black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imgWeatherCondition"
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="2.5"
+            android:background="@android:color/transparent"
+            android:foregroundGravity="center"
+            android:padding="5sp"
+            android:scaleX="0.7"
+            android:scaleY="0.7" />
+
+        <TextView
+            android:id="@+id/txtWeatherCondition"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:paddingEnd="0sp"
+            android:paddingStart="5sp"
+            android:text=""
+            android:textColor="@color/second_black"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

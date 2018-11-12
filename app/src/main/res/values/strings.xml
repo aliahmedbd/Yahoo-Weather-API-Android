@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">YahooWeatherApi</string>
+    <string name="centigrade">°C</string>
+</resources>
