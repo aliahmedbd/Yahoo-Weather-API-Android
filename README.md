@@ -5,3 +5,9 @@ Sometimes we need to incorporate weather API to existing application. Yahoo weat
 3. Humidity
 4. Forcasting 
 5. There are another interesting feature which is , you can find a transparent icon based on weather condition. etc.
+
+### This repository has:
+1. Create a sample layout to show weather condition [Temperature, Humidity, Wind speed]
+2. Call yahoo weather api using RETROFIT.
+3. Create a complete model (POJO class) to fetch/hold the API response.
+
