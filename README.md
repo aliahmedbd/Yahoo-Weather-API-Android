@@ -11,3 +11,6 @@ Sometimes we need to incorporate weather API to existing application. Yahoo weat
 2. Call yahoo weather api using RETROFIT.
 3. Create a complete model (POJO class) to fetch/hold the API response.
 
+### Screenshot:
+
+
